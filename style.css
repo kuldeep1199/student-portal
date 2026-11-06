@@ -1,0 +1,29 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f3f6fb;color:#263238;line-height:1.6}
+header{background:#234a83;color:white;padding:22px 5%}
+nav{background:#17345e;padding:12px 5%}
+nav a{color:white;text-decoration:none;margin-right:24px;font-weight:bold}
+nav a:hover{text-decoration:underline}
+.container{width:90%;max-width:1050px;margin:28px auto}
+.hero,.card{background:white;padding:25px;margin-bottom:22px;border-radius:8px;box-shadow:0 2px 9px #00000012}
+h2{color:#234a83;margin-bottom:12px}
+.hero p{margin-bottom:16px}
+.button,button{display:inline-block;background:#234a83;color:white;border:0;padding:10px 18px;border-radius:5px;text-decoration:none;cursor:pointer;font-size:15px}
+.button:hover,button:hover{background:#17345e}
+.info-grid,.form-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.info-box{background:#e8eff9;padding:18px;border-radius:6px;text-align:center}
+.info-box h3{color:#234a83;font-size:25px}
+.form-grid{grid-template-columns:1fr 1fr}
+.form-group{margin-bottom:15px}
+.form-group label{display:block;font-weight:bold;margin-bottom:5px}
+input[type=text],input[type=email],input[type=tel],input[type=date],select,textarea{width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:5px;font:inherit;background:white}
+.radio-options{display:flex;flex-wrap:wrap;gap:14px;padding:8px 0}
+.checkbox-label{display:block;margin:8px 0 16px}
+.table-wrapper{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:600px}
+th,td{border:1px solid #dbe2ea;padding:11px;text-align:left}
+th{background:#e8eff9;color:#234a83}
+tbody tr:nth-child(even){background:#f8fafc}
+ul{padding-left:22px}
+footer{background:#17345e;color:white;text-align:center;padding:16px;margin-top:35px}
+@media(max-width:650px){.form-grid,.info-grid{grid-template-columns:1fr}nav a{display:inline-block;margin:4px 12px 4px 0}.container{width:94%}.hero,.card{padding:18px}}

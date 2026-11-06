@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Portal - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Campus Student Portal</h1><p>Contact the student help desk</p></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="register.html">Register</a>
+    <a href="students.html">Students</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main class="container">
+
+    <section class="card">
+      <h2>Contact Information</h2>
+      <p><strong>Email:</strong> support@campusportal.example</p>
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Office Hours:</strong> Monday to Friday, 9:00 AM to 4:00 PM</p>
+      <p><strong>Address:</strong> Student Help Desk, Main Campus</p>
+    </section>
+    <section class="card">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <div class="form-group"><label for="name">Your Name</label><input type="text" id="name" name="name" placeholder="Enter your name" required></div>
+        <div class="form-group"><label for="email">Your Email</label><input type="email" id="email" name="email" placeholder="Enter your email" required></div>
+        <div class="form-group"><label for="subject">Subject</label><select id="subject" name="subject"><option>Registration Query</option><option>Course Information</option><option>Student Record Correction</option><option>Other</option></select></div>
+        <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea></div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer><p>© 2026 Campus Student Portal | HTML and CSS Practice Project</p></footer>
+</body>
+</html>
